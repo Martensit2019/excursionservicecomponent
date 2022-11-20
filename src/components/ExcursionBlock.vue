@@ -4,7 +4,7 @@
      <!-- Выравнивание по умолчанию: по ширине, в этом случае параметр alignment не задаём -->
     <excursion-tags :tags="tags" />
     <!-- Выравнивание по левому краю, в этом случае параметр alignment задаём и передаём left -->
-    <excursion-tags :tags="tags" alignment="left" />
+    <!-- <excursion-tags :tags="tags" alignment="left" /> -->
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex mb-3 flex-wrap overflow-y-hidden" :class="alignment ? 'justify-start' : 'justify-center'" ref="tags">
+  <div class="d-flex mb-3 flex-wrap overflow-y-hidden" :class="alignment ? 'justify-start' : 'justify-space-between'" ref="tags">
     <excursion-tag v-for="tag in tags" :tag="tag" :key="tag.id" @setHeight="setHeight" />
   </div>
 </template>
